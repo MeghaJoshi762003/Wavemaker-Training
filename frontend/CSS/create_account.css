@@ -1,0 +1,77 @@
+.heading{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    height:5%;
+    border-radius: 10px;
+    
+}
+.boundary{
+    align-items: center;
+    justify-content: center;
+    border: 1px solid  rgb(227, 227, 217);
+    width:70%;
+    margin: auto;
+    padding:3%;
+    border-radius: 10px;
+}
+.width{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.width div{
+    width:100%;
+}
+div{
+    margin: 0.5em;;
+}
+.width input{
+    width:100%;
+}
+.width select{
+    width:100%; 
+}
+textarea{
+    width:100%; 
+}
+.email input{
+    width:100%;
+}
+.sameln input{
+    width:10%;
+}
+body{
+    background-color: rgb(68, 68, 153);
+}
+body div{
+    background-color: aliceblue;
+}
+h1{
+    color: rgb(90, 183, 152);
+}
+#btn{
+    float:right;
+    background-color: #52a68a;
+    border: 1px solid rgb(82, 166, 138);
+    border-radius: 5px;
+    padding:0.5em;
+}
+.color{
+    color: rgb(82, 166, 138);
+    
+}
+input[type="range"]::-webkit-slider-runnable-track {
+    background: rgb(224, 227, 224);
+    height: 0.5rem;
+}
+
+@media screen and (max-width: 480px) {
+    body{
+     background-color: green;
+    }
+    .width{
+        display: block;
+    }
+}
