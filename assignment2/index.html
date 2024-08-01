@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Create Account</title>
+        <link rel="stylesheet" href="./CSS/style.css">
+        <meta name="viewport" content="width=device-width ,initial-scale=1.0">
+    </head>
+    <body>
+       
+        <div class="boundary">
+            <form>    
+                <div class="heading color">
+                    <h1>Create Account</h1>
+                </div>
+                <hr>
+                <div class="divwidth">
+                    <div >   
+                        <label for="fname" class="txtcolor">First name*</label><br>
+                        <input type="text" name="fname" placeholder="enter your first name" required>  
+                    </div>
+                    <div>
+                        <label for="lname" class="txtcolor">Last name</label><br>
+                        <input type="text" name="lname" placeholder="enter your last name">  
+                    </div>
+                </div>
+                <div class="email">
+                    <label for="email" class="txtcolor"> Email*</label><br>
+                        <input type="email" name="email" placeholder="enter your email" required>  
+                </div>
+                <div class="divwidth">
+                    <div >   
+                        <label for="pswd" class="txtcolor">Password*</label><br>
+                        <input type="password" name="pswd" placeholder="enter your password"  required>  
+                    </div>
+                    <div >
+                        <label for="cpswd" class="txtcolor"> Confirm Password*</label><br>
+                        <input type="password" name="cpswd" placeholder="enter your password again"  required>  
+                    </div>
+                </div>
+                <div class="divwidth sameln">
+                    <div >   
+                        <label for="gender" class="txtcolor">Gender:</label><br>
+                        <input type="radio" id="male" name="gender" value="Male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="Female"> 
+                        <label for="female">Female</label>
+                    </div>
+
+                    <div >
+                        <label for="hobbies" class="txtcolor"> Hobbies</label><br>
+                        <input type="checkbox" name="hobbies1" value="music" id="hobbies1">  
+                        <label for="hobbies1"> Music</label>
+                        <input type="checkbox" name="hobbies2" value="sports" id="hobbies2">  
+                        <label for="hobbies2"> Sports</label>
+                        <input type="checkbox" name="hobbies3" value="Travel" id="hobbies3">  
+                        <label for="hobbies3"> Travel</label>
+                        <input type="checkbox" name="hobbies4" value="movies" id="hobbies4">  
+                        <label for="hobbies4"> Movies</label>
+                    </div>
+                </div>
+                <div class="divwidth">
+                    <div>
+                        <label for="soi" class="txtcolor"> Source of Income</label><br>
+                        <select name="soi" id="soi">
+                            <option value="employed" >Employed</option>
+                            <option value="unemployed">Unemployed</option>
+                          </select>
+                    </div>
+                    <div>
+                        <label for="income" class="txtcolor">Income:</label>
+                        <input type="range" id="income" name="income" min="0" max="20000">20K
+                    </div>
+
+                </div>
+
+                <div class="divwidth">
+                    <div>
+                        <label for="myfile" class="txtcolor">Upload Profile Picture:</label><br>
+                        <input type="file" id="myfile" name="myfile">
+                    </div>
+                    <div>
+                        <label for="age" class="txtcolor">Age</label><br>
+                        <input type="number" id="age" name="age">
+                    </div>
+                   
+                </div>
+                <div>
+                    <label for="bio" class="txtcolor">Bio</label>
+                    <br>
+                    <textarea id="bio" name="bio" rows="4" cols="50">
+                    
+                    </textarea>
+
+                </div>
+                <div>
+                    <button id="btn">Create</button>
+                </div>
+
+                
+            </form>
+    </div>
+    </body>
+</html>
