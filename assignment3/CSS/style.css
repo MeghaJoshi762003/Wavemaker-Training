@@ -1,0 +1,27 @@
+.border{
+    width:50%;
+    margin:auto;
+    margin-top:5em;
+}
+.inputht{
+    height: 5em;
+    text-align: right;
+    width:100%;
+    background-color:rgb(183, 202, 202,0.3)
+}
+.nav img{
+    height:6%;
+    width:6%;
+}
+.nav{
+    background-color: rgb(168, 168, 154,0.4);
+    padding:0.4em;
+}
+.calc
+{
+    width:95%;
+    margin:auto;
+    border:1px solid black;
+    padding:1em;
+
+}
