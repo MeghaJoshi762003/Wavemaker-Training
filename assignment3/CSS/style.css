@@ -1,11 +1,11 @@
 .border{
     width:50%;
-    margin:auto;
-    margin-top:5em;
+     margin:auto;
 }
 .inputht{
     height: 5em;
     text-align: right;
+    margin-bottom: 1em;
     width:100%;
     background-color:rgb(183, 202, 202,0.3)
 }
