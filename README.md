@@ -10,3 +10,12 @@ Create Account
 in small Screen
 <img width="306" alt="image" src="https://github.com/user-attachments/assets/c5ec6521-ae9a-40ab-bed5-8ed8e836a78e">
 
+Assignment-3
+Calculator
+<img width="491" alt="image" src="https://github.com/user-attachments/assets/cd03f562-6ab4-4076-acae-1cdd54436967">
+
+in small screen
+<img width="176" alt="image" src="https://github.com/user-attachments/assets/6ce0b9ce-69ff-41f1-afb3-22930e2720e8">
+
+
+
