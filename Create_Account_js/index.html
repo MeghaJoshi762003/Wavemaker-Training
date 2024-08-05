@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Create Account</title>
+        <link rel="stylesheet" href="./CSS/style.css">
+        <meta name="viewport" content="width=device-width ,initial-scale=1.0">
+        <script src="index.js"></script>
+    </head>
+    <body>
+       
+        <div class="boundary">
+            <form id="myForm">    
+                <div class="heading color">
+                    <h1>Create Account</h1>
+                </div>
+                <hr>
+                <div class="divwidth">
+                    <div class="width90">   
+                        <label for="fname"  class="txtcolor">First name*</label><br>
+                        <input class="width90" id="fname" type="text" name="fname" placeholder="enter your first name" required>  
+                    </div>
+                    <div class="width90">
+                        <label for="lname" class="txtcolor">Last name</label><br>
+                        <input class="width90" type="text" id="lname"name="lname" placeholder="enter your last name" required>  
+                    </div>
+                </div>
+                <div class="emailwidth">
+                    <label for="email" class="txtcolor"> Email*</label><br>
+                        <input class="width100" id="email"type="email" name="email" placeholder="enter your email" required>  
+                </div>
+                <div class="divwidth">
+                    <div class="width90">   
+                        <label for="pswd" class="txtcolor">Password*</label><br>
+                        <input class="width90" id="passwd"type="password" name="pswd" placeholder="enter your password"  required>  
+                    </div>
+                    <div class="width90">
+                        <label for="cpswd" class="txtcolor"> Confirm Password*</label><br>
+                        <input class="width90" id="cpasswd"type="password" name="cpswd" placeholder="enter your password again"  required>  
+                    </div>
+                </div>
+                <div class="divwidth sameln">
+                    <div class="width90">   
+                        <label for="gender" class="txtcolor">Gender:</label><br>
+                        <input  type="radio" id="male" name="gender" value="Male">
+                        <label for="male" >Male</label>
+                        <input type="radio" id="female" name="gender" value="Female"> 
+                        <label for="female">Female</label>
+                    </div>
+
+                    <div class="width90">
+                        <label for="hobbies" class="txtcolor"> Hobbies</label><br>
+                        <input type="checkbox" name="hobbies1" value="music" id="   ">  
+                        <label for="hobbies1" default> Music</label>
+                        <input type="checkbox" name="hobbies2" value="sports" id="hobbies2">  
+                        <label for="hobbies2"> Sports</label>
+                        <input type="checkbox" name="hobbies3" value="Travel" id="hobbies3">  
+                        <label for="hobbies3"> Travel</label>
+                        <input type="checkbox" name="hobbies4" value="movies" id="hobbies4">  
+                        <label for="hobbies4"> Movies</label>
+                    </div>
+                </div>
+                <div class="divwidth">
+                    <div class="width90">
+                        <label for="soi" class="txtcolor"> Source of Income</label><br>
+                        <select class="width90" name="soi" id="soi" required>
+                            <option value="employed" >Employed</option>
+                            <option value="unemployed">Unemployed</option>
+                          </select>
+                    </div>
+                    <div class="width90">
+                        <label for="income" class="txtcolor">Income:</label>
+                        <input class="width90" type="range" id="income" name="income" min="0" max="20000">
+                    </div>
+
+                </div>
+
+                <div class="divwidth">
+                    <div class="width90">
+                        <label for="myfile" class="txtcolor">Upload Profile Picture:</label><br>
+                        <input class="width90" type="file" id="myfile" name="myfile" required>
+                    </div>
+                    <div class="width90">
+                        <label for="age" class="txtcolor">Age</label><br>
+                        <input class="width90" type="number" id="age" name="age" required>
+                    </div>
+                   
+                </div>
+                <div class="biowidth">
+                    <label for="bio" class="txtcolor">Bio</label>
+                    <br>
+                    <textarea class="width100"id="bio" name="bio" rows="4" cols="50" required>
+                    
+                    </textarea>
+
+                </div>
+                <div class="button">
+                    <button id="btn" type="submit">Create</button>
+                </div>
+
+                
+            </form>
+    </div>
+    </body>
+</html>
