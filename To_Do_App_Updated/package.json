@@ -1,0 +1,16 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "description": "A simple Node.js project using ESM",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "start": "http-server -c-1 -o",
+    "test" : "echo \"Error:no test\"&& exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
