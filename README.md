@@ -20,6 +20,9 @@ in small screen
 To Do App
 <img width="251" alt="image" src="https://github.com/user-attachments/assets/61598ef6-fcab-4b7d-8303-0d33db6dbfe3">
 
+Hosted on Netlify
+https://to-do-app-by-megha.netlify.app/
+
 
 
 
